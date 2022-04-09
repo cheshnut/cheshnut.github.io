@@ -139,22 +139,33 @@ main {
 }
 
 .Icon_Button {
-    width: 100px;
-    margin: auto
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .Profile_Button {
     transition: 125ms ease;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin: auto
 }
 
 .Navbar_Icon_JobList {
     transition: 125ms ease;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin: auto
 }
 
 .Marketplace_Button {
     transition: 125ms ease;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin: auto
 }
 
@@ -184,9 +195,4 @@ main {
 
 .nav-item:last-child {
     margin-top: auto;
-}
-
-.img {
-    max-width: 100%;
-    height: auto;
 }
