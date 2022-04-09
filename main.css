@@ -140,18 +140,22 @@ main {
 
 .Icon_Button {
     width: 100px;
+    margin: auto
 }
 
 .Profile_Button {
     transition: 125ms ease;
+    margin: auto
 }
 
 .Navbar_Icon_JobList {
     transition: 125ms ease;
+    margin: auto
 }
 
 .Marketplace_Button {
     transition: 125ms ease;
+    margin: auto
 }
 
 .Marketplace_Button:hover {
@@ -180,4 +184,9 @@ main {
 
 .nav-item:last-child {
     margin-top: auto;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
 }
