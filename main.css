@@ -86,8 +86,9 @@ main {
     text-align: left;
 }
 
-.infobar-link:hover {
-    color: white;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .twitter {
@@ -116,10 +117,35 @@ main {
     background-size: cover;
 }
 
+.discord:active {
+    transform: translateY(4px);
+}
+
 .twitter:hover {
     filter: brightness(85%);
     display: inline-block;
     background-size: cover;
+}
+
+.twitter:active {
+    transform: translateY(4px);
+}
+
+.reddit {
+    width: 50px;
+    position: relative;
+    flex-flow: flex-start;
+    transition: 125ms ease;
+}
+
+.reddit:hover {
+    filter: brightness(85%);
+    display: inline-block;
+    background-size: cover;
+}
+
+.reddit:active {
+    transform: translateY(4px);
 }
 
 .navbar-nav {
@@ -175,16 +201,28 @@ main {
     background-size: cover;
 }
 
+.Marketplace_Button:active {
+    transform: translateY(8px);
+}
+
 .Profile_Button:hover {
     filter: brightness(85%);
     display: inline-block;
     background-size: cover;
 }
 
+.Profile_Button:active {
+    transform: translateY(8px);
+}
+
 .Navbar_Icon_JobList:hover {
     filter: brightness(85%);
     display: inline-block;
     background-size: cover;
+}
+
+.Navbar_Icon_JobList:active {
+    transform: translateY(8px);
 }
 
 .Icon {
