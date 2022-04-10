@@ -31,7 +31,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    padding-bottom: 15rem;
+    padding-bottom: 20rem;
     background-color: #3f2323;
     font-family: 'Karla', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
@@ -248,7 +248,7 @@ img {
     background-size: cover;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     body {
         padding-bottom: 40rem;
     }
@@ -258,6 +258,6 @@ img {
     .inner_footer .logo_container,
     .inner_footer .footer_third {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
     }
 }
