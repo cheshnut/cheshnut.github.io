@@ -55,6 +55,7 @@ body::-webkit-scrollbar-thumb {
 main {
     margin-top: 2rem;
     padding: 1rem;
+    padding-bottom: 15rem;
 }
 
 .navbar {
@@ -82,13 +83,51 @@ main {
     text-align: right;
 }
 
-.infobar-social {
+.infobar-about {
+    padding-bottom: 2rem;
+}
+
+.row ul {
+    color: #cccccc;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: left;
 }
 
-.row {
+.row a {
+    transition: 125ms ease;
+}
+
+.row a:hover {
+    color: white;
+}
+
+.infobar-help ul {
+    transform: translateX(20px);
+}
+
+.infobar-help h3 {
+    transform: translateX(20px);
+}
+
+.row h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.infobar-social {
+    margin-left: auto;
+}
+
+.row,
+infobar-about,
+infobar-help {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: flex-end;
 }
 
 .twitter {
