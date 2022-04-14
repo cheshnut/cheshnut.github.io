@@ -248,9 +248,41 @@ img {
     background-size: cover;
 }
 
+.main-item a {
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+.icon_img {
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.get_started {
+    margin: auto;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+.get_started:hover {
+    filter: brightness(85%);
+    transition: 125ms ease;
+}
+
 @media(max-width: 1118px) {
     body {
-        padding-bottom: 40rem;
+        padding-bottom: 50rem;
     }
     .footer .inner_footer {
         width: 90%;
