@@ -89,64 +89,20 @@ img {
     justify-content: space-between;
 }
 
-.Icon_Button {
+.navbar-button {
     margin: auto;
     width: 100%;
     max-width: 400px;
     height: auto;
 }
 
-.Profile_Button {
-    transition: 125ms ease;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: auto
-}
-
-.Navbar_Icon_JobList {
-    transition: 125ms ease;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: auto
-}
-
-.Marketplace_Button {
-    transition: 125ms ease;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: auto
-}
-
-.Marketplace_Button:hover {
+.navbar-button:hover {
     filter: brightness(85%);
     display: inline-block;
     background-size: cover;
 }
 
-.Marketplace_Button:active {
-    transform: translateY(8px);
-}
-
-.Profile_Button:hover {
-    filter: brightness(85%);
-    display: inline-block;
-    background-size: cover;
-}
-
-.Profile_Button:active {
-    transform: translateY(8px);
-}
-
-.Navbar_Icon_JobList:hover {
-    filter: brightness(85%);
-    display: inline-block;
-    background-size: cover;
-}
-
-.Navbar_Icon_JobList:active {
+.navbar-button:active {
     transform: translateY(8px);
 }
 
@@ -160,7 +116,11 @@ img {
     margin-top: auto;
 }
 
-.featured-art h2 {
+.featured-item {
+    padding-bottom: 15rem;
+}
+
+.featured-item h2 {
     color: #fff;
     text-transform: uppercase;
     margin-top: 5px;
@@ -175,8 +135,19 @@ img {
 .featured-art-item img {
     margin: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 650px;
     border: 10px solid #190e0f;
+}
+
+.featured-artist-item img {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    transition: 125ms ease;
+}
+
+.featured-artist-item img:hover {
+    filter: brightness(85%);
 }
 
 *.footer {
