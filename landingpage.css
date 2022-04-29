@@ -255,9 +255,10 @@ img {
 }
 
 .main-item {
-    padding: 70px;
+    padding: 150px;
     background-color: #2c181a;
     margin-bottom: 200px;
+    margin-top: 10px;
 }
 
 .main-item h2 {
